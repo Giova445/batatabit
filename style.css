@@ -26,6 +26,7 @@
 html {
     font-size: 62.5%;
     font-family: 'DM Sans',l sans-serif;
+    scroll-behavior: smooth;
 }
 header {
     position: relative;
@@ -272,6 +273,7 @@ main {
 .comision-table--container .table__bottom-right {
     border-radius: 0 0 15px 0;
 }
+
 .comision-table--container .table__right {
     font-size: 1.4rem;
     font-weight: normal;
@@ -300,7 +302,7 @@ main {
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
-    background-color: var(--warm-black);
+    background-color: var(--black);
 }
 .product-detail--batata-logo {
     position: absolute;
@@ -338,7 +340,7 @@ main {
     height: 150px;
     margin: 15px auto;
     padding: 15px;
-    background-color: var(--black);
+    background-color: var(--warm-black);
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
@@ -381,4 +383,21 @@ main {
     font-weight: 500;
     line-height: 1.8rem;
     color: #808080;
+}
+.bitcoin-img-container {
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-image: url("./assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.bitcoin-img-container h2 {
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+    text-align: center;
 }
